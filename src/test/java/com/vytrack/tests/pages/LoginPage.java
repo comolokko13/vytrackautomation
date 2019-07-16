@@ -18,6 +18,9 @@ public class LoginPage {
     public WebElement passwordTextbox;
     @FindBy(id = "_submit")
     public WebElement loginButton;
+    @FindBy(xpath = "//div[@class='alert alert-error']")
+    public WebElement allertMessage;
+
 
 
 

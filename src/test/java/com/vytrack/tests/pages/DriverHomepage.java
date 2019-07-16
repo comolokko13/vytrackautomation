@@ -37,11 +37,21 @@ public class DriverHomepage {
     public WebElement opportunitiesPage;
     @FindBy(xpath = "//span[text()='Calls']")
     public WebElement callsPage;
+    @FindBy(xpath = "//span[text()='Vehicle Contracts']")
+    public WebElement vehicleContacts;
+    @FindBy(xpath = "//div[contains(text(),'You do not have permission to perform this action.')]")
+    public WebElement permisssionAlert;
 
 
 
     @FindBy(xpath = "//h1[@class='oro-subtitle']")
     public WebElement pageName;
+
+    @FindBy(xpath = "//li[@id='user-menu']/a")
+    public WebElement nameOnTheLeft;
+
+    @FindBy(xpath = "//a[text()='Logout']")
+    public  WebElement logoutButton;
 
 
 }
