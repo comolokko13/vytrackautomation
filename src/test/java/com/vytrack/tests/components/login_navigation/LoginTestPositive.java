@@ -41,7 +41,7 @@ public class LoginTestPositive {
         loginPage.login(ConfigurationReader.getProperty("store_manager_user_name"),ConfigurationReader.getProperty("default_password"));
         //2. Verify	name	of	the	store	manager is	displayed	on	top	right
         System.out.println("Verify\tname\tof\tthe\tstore\tmanager is\tdisplayed\ton\ttop\tright");
-
+        Driver.getDriver().findElement(By.xpath("")) ;
         String nameExpected = "Angie Hessel";
         Boolean isContains = nameExpected.contains(driverHomepage.nameOnTheLeft.getText()) ;
         System.out.println(nameExpected  + " === "  +driverHomepage.nameOnTheLeft.getText());

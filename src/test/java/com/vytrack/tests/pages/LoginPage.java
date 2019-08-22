@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 //selam
+//hellointellij
     public LoginPage(){
         PageFactory.initElements(Driver.getDriver(),this);
 
