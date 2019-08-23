@@ -1,5 +1,6 @@
 package com.vytrack.tests.smoke_tests;
 
+import com.vytrack.tests.pages.BasePage;
 import com.vytrack.tests.pages.DriverHomepage;
 import com.vytrack.tests.pages.LoginPage;
 import com.vytrack.utilities.BrowserUtils;
@@ -15,6 +16,7 @@ public class MenuOptionsTestAsDriver {
 
     LoginPage loginPage;
     DriverHomepage driverHomepage;
+
 
     @BeforeMethod
     public void setUp(){
@@ -32,6 +34,7 @@ public class MenuOptionsTestAsDriver {
         loginPage.login(ConfigurationReader.getProperty("driver_user_name"),ConfigurationReader.getProperty("default_password"));
         BrowserUtils.waitForClickablility(driverHomepage.fleetModul,5);
         driverHomepage.fleetModul.click();
+
         driverHomepage.vehiclesLink.click();
         BrowserUtils.waitForPageTitle("Car - Entities - System - Car - Entities - System");
         BrowserUtils.verifyPageTitle("Car - Entities - System - Car - Entities - System");
@@ -45,6 +48,7 @@ public class MenuOptionsTestAsDriver {
         BrowserUtils.waitForClickablility(driverHomepage.customerModul,5);
         driverHomepage.customerModul.click();
         driverHomepage.accountsLink.click();
+
         BrowserUtils.waitForPageTitle("Accounts - Customers");
         Assert.assertEquals("Accounts", driverHomepage.pageName.getText());
 
@@ -70,6 +74,7 @@ public class MenuOptionsTestAsDriver {
         BrowserUtils.waitForClickablility(driverHomepage.activitiesModul,5);
         driverHomepage.activitiesModul.click();
         driverHomepage.calendarLink.click();
+
         BrowserUtils.waitForPageTitle("Calendar Events - Activities");
         BrowserUtils.verifyPageTitle("Calendar Events - Activities");
         Assert.assertEquals("Calendar Events", driverHomepage.pageName.getText());

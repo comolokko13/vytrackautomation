@@ -30,12 +30,6 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
-  </component>
   <component name="ProjectId" id="1PnjARdZgpMhfdXwCAWialX9tV6" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -60,25 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTestPositive">
-    <configuration name="LoginTestNegative.loginTestWithInvalidPassword" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="vytrackautomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vytrack.tests.components.login_navigation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.vytrack.tests.components.login_navigation" />
-      <option name="MAIN_CLASS_NAME" value="com.vytrack.tests.components.login_navigation.LoginTestNegative" />
-      <option name="METHOD_NAME" value="loginTestWithInvalidPassword" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.MenuOptionsTestAsDriver.verify_vehicles_page_title">
     <configuration name="LoginTestPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="vytrackautomation" />
       <extension name="coverage">
@@ -90,6 +66,24 @@
       <option name="PACKAGE_NAME" value="com.vytrack.tests.components.login_navigation" />
       <option name="MAIN_CLASS_NAME" value="com.vytrack.tests.components.login_navigation.LoginTestPositive" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuOptionsTestAsDriver.verify_vehicles_page_title" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="vytrackautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vytrack.tests.smoke_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vytrack.tests.smoke_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.vytrack.tests.smoke_tests.MenuOptionsTestAsDriver" />
+      <option name="METHOD_NAME" value="verify_vehicles_page_title" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -151,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MenuOptionsTestAsDriver.verify_vehicles_page_title" />
         <item itemvalue="TestNG.LoginTestPositive" />
         <item itemvalue="TestNG.PageAccessTest.verifyAccesToConstactsPageAsADriver" />
         <item itemvalue="TestNG.PageAccessTest.verifyAccesToConstactsPageAsASalesManager" />
         <item itemvalue="TestNG.PageAccessTest" />
-        <item itemvalue="TestNG.LoginTestNegative.loginTestWithInvalidPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -172,44 +166,14 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="PageAccessTest - 2019.07.16 at 00h 57m 18s.xml">
-      <configuration name="PageAccessTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PageAccessTest - 2019.07.16 at 01h 01m 25s.xml">
-      <configuration name="PageAccessTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PageAccessTest_verifyAccesToConstactsPageAsASalesManager - 2019.07.16 at 01h 04m 04s.xml">
-      <configuration name="PageAccessTest.verifyAccesToConstactsPageAsASalesManager" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PageAccessTest_verifyAccesToConstactsPageAsADriver - 2019.07.16 at 01h 09m 47s.xml">
-      <configuration name="PageAccessTest.verifyAccesToConstactsPageAsADriver" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PageAccessTest_verifyAccesToConstactsPageAsADriver - 2019.07.16 at 01h 12m 21s.xml">
-      <configuration name="PageAccessTest.verifyAccesToConstactsPageAsADriver" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PageAccessTest_verifyAccesToConstactsPageAsADriver - 2019.07.16 at 01h 12m 41s.xml">
-      <configuration name="PageAccessTest.verifyAccesToConstactsPageAsADriver" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PageAccessTest_verifyAccesToConstactsPageAsADriver - 2019.07.16 at 01h 13m 39s.xml">
-      <configuration name="PageAccessTest.verifyAccesToConstactsPageAsADriver" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PageAccessTest_verifyAccesToConstactsPageAsADriver - 2019.07.16 at 01h 14m 02s.xml">
-      <configuration name="PageAccessTest.verifyAccesToConstactsPageAsADriver" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PageAccessTest_verifyAccesToConstactsPageAsADriver - 2019.07.16 at 01h 14m 32s.xml">
-      <configuration name="PageAccessTest.verifyAccesToConstactsPageAsADriver" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTestPositive - 2019.07.16 at 20h 14m 45s.xml">
-      <configuration name="LoginTestPositive" configurationId="TestNG" />
-    </history-entry>
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
